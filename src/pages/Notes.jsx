@@ -45,7 +45,7 @@ const NotesApp = () => {
       {/* Top Section */}
       <div className="top bg-teal-600 text-white p-4 text-center">
         <h1 className="text-3xl font-bold flex justify-center items-center">
-          <img src="public/image/pencil_2.svg" alt="Pencil" className="mr-2 w-8" />
+          <img src="image/pencil_2.svg" alt="Pencil" className="mr-2 w-8" />
           Notes
         </h1>
       </div>
@@ -56,7 +56,7 @@ const NotesApp = () => {
           className="create bg-orange-400 text-white p-2 rounded mb-4 flex items-center"
           onClick={createNote}
         >
-          <img src="public/image/plus.svg" alt="Plus" className="w-4 mr-2" />
+          <img src="image/plus.svg" alt="Plus" className="w-4 mr-2" />
           <p className="font-semibold">New Note</p>
         </button>
         <div className="notes-container space-y-4">
@@ -75,7 +75,7 @@ const NotesApp = () => {
                   {note.title || "Title"}
                 </p>
                 <img
-                  src="public/image/cross.svg"
+                  src="image/cross.svg"
                   alt="Delete"
                   className="w-6 h-6 cursor-pointer"
                   onClick={() => deleteNote(index)}
