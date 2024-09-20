@@ -1,11 +1,11 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate();
 
   const handleContactClick = () => {
-    navigate("/contact"); // Navigate to the contact page
+    navigate("/contact");
   };
 
   return (
@@ -18,7 +18,6 @@ const About = () => {
         that we meet the evolving demands of the market.
       </p>
 
-      {/* Mission and Vision Section */}
       <div className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">Our Mission</h2>
         <p className="text-lg">
@@ -34,14 +33,13 @@ const About = () => {
         </p>
       </div>
 
-      {/* Call to Action */}
       <div className="text-center mt-8">
         <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
         <p className="mb-6">
           Interested in working with us? Contact us today and let's build something great together!
         </p>
         <button
-          onClick={handleContactClick} // Attach the click handler
+          onClick={handleContactClick}
           className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
         >
           Contact Us
