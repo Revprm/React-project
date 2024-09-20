@@ -4,12 +4,12 @@ const Home = () => {
   return (
     <div className="flex flex-col items-center justify-between h-screen bg-blue-50">
       {/* Main Section */}
-      <div className="flex-grow flex items-center justify-center flex-col">
+      <div className="flex-grow flex items-center justify-center flex-col px-4">
         <div className="text-center mb-12">
-          <h1 className="text-6xl font-extrabold mb-6 text-gray-900">
+          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 text-gray-900">
             Innovating the Future
           </h1>
-          <p className="text-xl mb-8 text-gray-700">
+          <p className="text-lg md:text-xl mb-8 text-gray-700">
             Delivering cutting-edge solutions to help your business thrive in
             the digital age.
           </p>
@@ -32,14 +32,14 @@ const Home = () => {
         </div>
 
         {/* Deals Section */}
-        <div className="w-full bg-white p-8 rounded-lg shadow-lg text-center">
-          <h2 className="text-4xl font-semibold text-gray-800 mb-6">
+        <div className="w-full max-w-4xl bg-white p-8 rounded-lg shadow-lg text-center">
+          <h2 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-6">
             Exclusive Deals
           </h2>
-          <div className="flex justify-center space-x-8">
+          <div className="flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-8">
             {/* Deal 1 */}
-            <div className="bg-blue-100 p-6 rounded-lg shadow-md w-64">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+            <div className="bg-blue-100 p-6 rounded-lg shadow-md w-full md:w-64">
+              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4">
                 50% Off on Web Design
               </h3>
               <p className="text-gray-700 mb-4">
@@ -55,8 +55,8 @@ const Home = () => {
             </div>
 
             {/* Deal 2 */}
-            <div className="bg-blue-100 p-6 rounded-lg shadow-md w-64">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+            <div className="bg-blue-100 p-6 rounded-lg shadow-md w-full md:w-64">
+              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4">
                 Free SEO Audit
               </h3>
               <p className="text-gray-700 mb-4">
@@ -72,8 +72,8 @@ const Home = () => {
             </div>
 
             {/* Deal 3 */}
-            <div className="bg-blue-100 p-6 rounded-lg shadow-md w-64">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+            <div className="bg-blue-100 p-6 rounded-lg shadow-md w-full md:w-64">
+              <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4">
                 20% Off on Mobile Apps
               </h3>
               <p className="text-gray-700 mb-4">
