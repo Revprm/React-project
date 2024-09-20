@@ -18,7 +18,7 @@ const Contact = () => {
       <h2 className="text-3xl font-semibold mb-4">Our Team:</h2>
       <div className="space-y-4">
         <div className="bg-white p-4 rounded shadow-md">
-          <h3 className="text-2xl font-bold">Nicklaus Nathanael S Gurukinayan</h3>
+          <h3 className="text-2xl font-bold">Nicklaus Natanael S Gurukinayan</h3>
           <p>Role: Ketua</p>
           <p>
             Email:{" "}
